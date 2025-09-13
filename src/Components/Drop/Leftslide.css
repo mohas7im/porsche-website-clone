@@ -1,0 +1,126 @@
+.drop-menu {
+  background-color: white;
+  padding-inline: 10px;
+  width: 450px  ;
+}
+
+.drop-menu .dropok {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 20px;
+  padding: 5px;
+}
+
+.drop-menu button {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+.drop-menu .dropok button {
+  outline: 0;
+  border: 0;
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+.drop-menu .dropok button:hover {
+  background-color: gray;
+  color: white;
+
+}
+/* .drop-menu .dropok:hover {
+  background-color: gray;
+} */
+.dropmenu-section {
+  display: flex;
+}
+
+.dropmenu-middle-section .car-item img {
+  width: 320px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+}
+.dropmenu-middle-section .car-item:hover{
+background-color: white;
+}
+.dropmenu-middle-section {
+  padding-top: 50px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(234, 234, 234);
+  gap: 70px;
+  padding-inline: 50px;
+  overflow-y: scroll;
+  padding-right: 20px;
+  height: 100vh;
+
+  padding-bottom: 20px;
+}
+.element-with-scrollbar::-webkit-scrollbar {
+  display: none; 
+}
+.car-item {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 10px;
+}
+.car-item button {
+  margin-top: 10px;
+  padding: 5px;
+  border: 0;
+  font-size: 12px;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: rgb(149, 149, 149);
+}
+.car-item img:hover {
+  transform: translateX(10px);
+}
+.close {
+  background-color: rgba(252, 251, 251, 0.971);
+  min-width: 700px;
+
+}
+
+.close i {
+  font-size: 40px;
+  padding: 20px;
+}
+.vehicleitem h3{
+    padding-top: 12px;
+    margin-bottom: 10px;
+}
+.models{
+
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 40px;
+
+
+}
+
+.arrleft{
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+
+  
+}
+.arrleft:hover{
+  border-radius: 40%;
+
+}
+.headmodel{
+  margin-bottom: 30px;
+  font-size: 22px;
+}

@@ -1,0 +1,65 @@
+.footer{
+    background-color: black;
+    color: #fff;
+}
+.lang{
+    margin-block: 15px;
+    display: flex;
+    gap: 10px;
+}
+.location h2{
+    font-size: 30px;
+
+
+}
+.location p{
+    font-size: 15px;
+}
+.location button{
+    width:70%;
+    background-color: white;
+    outline: 0;
+    padding: 10px 20px;
+    margin-block: 10px;
+    border-radius: 5px;
+}
+.locandsocial{
+    display: flex;
+    gap: 80px;
+    margin-block: 20px;
+}
+.social-medias button{
+    background-color: white;
+    padding: 7px;
+    font-size: 20px;
+    outline: 0;
+    margin-right: 10px;
+    margin-block: 10px;
+    border:0;
+    border-radius: 5px;
+
+}
+
+.social-media h2{
+    font-size: 30px;
+
+}
+.company-contents{
+   
+      display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px ;
+
+
+    
+
+}
+.company-contents a{
+text-decoration: none;
+color: white;
+
+}
+.company h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,32 @@
+.cards{
+     margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+      filter: brightness(60%); 
+   
+  
+
+}
+.card{
+      flex-basis: 31%;
+      position: relative;
+ 
+}
+.caption{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 15px;
+    position: absolute;
+    width: 90%;
+    bottom: 10%;
+    font-size: 16px;
+    color: white;
+
+}
