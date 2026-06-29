@@ -23,7 +23,3 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-
-# Reference files
-src/assets/cayennadrop.html
-src/assets/cayennadrop_files/
